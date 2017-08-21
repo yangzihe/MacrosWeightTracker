@@ -7,9 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "MWTDailyMealViewController.h"
+#import "MWTFoodStore.h"
+#import "MWTMacrosOverviewViewController.h"
 
 @interface AppDelegate ()
-
+@property (nonatomic) MWTFoodStore *foodStore;
 @end
 
 @implementation AppDelegate
@@ -17,6 +20,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.foodStore = [[MWTFoodStore alloc] init];
+
+    UINavigationController *navController = (UINavigationController *) self.window.rootViewController;
+    [navController.navigationBar setBarStyle:UIBarStyleBlackOpaque];
+    [[UINavigationBar appearance] setShadowImage:[[UIImage alloc] init]];
+    [[UINavigationBar appearance] setBackgroundImage:[[UIImage alloc] init] forBarMetrics:UIBarMetricsDefault];
+
+    MWTMacrosOverviewViewController *macrosVC = (MWTMacrosOverviewViewController *)navController.topViewController;
+    macrosVC.foodStore = self.foodStore;
     return YES;
 }
 

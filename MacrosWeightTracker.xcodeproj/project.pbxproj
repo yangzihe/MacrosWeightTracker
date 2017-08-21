@@ -7,25 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		478CC2BD0F54D0B3E893484B /* Pods_MacrosWeightTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76997E1DB0C7B897225A9959 /* Pods_MacrosWeightTracker.framework */; };
+		AE5868151F2403DE00E7C782 /* MWTMacrosOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5868141F2403DE00E7C782 /* MWTMacrosOverviewViewController.m */; };
 		AE628E001E80E3BA009AEA4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE628DFF1E80E3BA009AEA4C /* main.m */; };
 		AE628E031E80E3BA009AEA4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE628E021E80E3BA009AEA4C /* AppDelegate.m */; };
-		AE628E061E80E3BA009AEA4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE628E051E80E3BA009AEA4C /* ViewController.m */; };
+		AE628E061E80E3BA009AEA4C /* MWTDailyMealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE628E051E80E3BA009AEA4C /* MWTDailyMealViewController.m */; };
 		AE628E091E80E3BA009AEA4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE628E071E80E3BA009AEA4C /* Main.storyboard */; };
 		AE628E0B1E80E3BA009AEA4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE628E0A1E80E3BA009AEA4C /* Assets.xcassets */; };
 		AE628E0E1E80E3BA009AEA4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE628E0C1E80E3BA009AEA4C /* LaunchScreen.storyboard */; };
+		AE628E181E80EBD0009AEA4C /* MWTFoodStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AE628E171E80EBD0009AEA4C /* MWTFoodStore.m */; };
+		AE628E1B1E80EC7A009AEA4C /* MWTFood.m in Sources */ = {isa = PBXBuildFile; fileRef = AE628E1A1E80EC7A009AEA4C /* MWTFood.m */; };
+		AE628E1F1E80F525009AEA4C /* MWTFoodTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE628E1E1E80F525009AEA4C /* MWTFoodTableViewCell.m */; };
+		AE628E221E80FD74009AEA4C /* MWTFoodDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE628E211E80FD74009AEA4C /* MWTFoodDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D62304217470791AC18B594 /* Pods-MacrosWeightTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacrosWeightTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-MacrosWeightTracker/Pods-MacrosWeightTracker.release.xcconfig"; sourceTree = "<group>"; };
+		7493B01AD6D56C4AB5097237 /* Pods-MacrosWeightTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacrosWeightTracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MacrosWeightTracker/Pods-MacrosWeightTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		76997E1DB0C7B897225A9959 /* Pods_MacrosWeightTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MacrosWeightTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE5868131F2403DE00E7C782 /* MWTMacrosOverviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWTMacrosOverviewViewController.h; sourceTree = "<group>"; };
+		AE5868141F2403DE00E7C782 /* MWTMacrosOverviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWTMacrosOverviewViewController.m; sourceTree = "<group>"; };
 		AE628DFB1E80E3BA009AEA4C /* MacrosWeightTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacrosWeightTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE628DFF1E80E3BA009AEA4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AE628E011E80E3BA009AEA4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AE628E021E80E3BA009AEA4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AE628E041E80E3BA009AEA4C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AE628E051E80E3BA009AEA4C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE628E041E80E3BA009AEA4C /* MWTDailyMealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWTDailyMealViewController.h; sourceTree = "<group>"; };
+		AE628E051E80E3BA009AEA4C /* MWTDailyMealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWTDailyMealViewController.m; sourceTree = "<group>"; };
 		AE628E081E80E3BA009AEA4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE628E0A1E80E3BA009AEA4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE628E0D1E80E3BA009AEA4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE628E0F1E80E3BA009AEA4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE628E161E80EBD0009AEA4C /* MWTFoodStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWTFoodStore.h; sourceTree = "<group>"; };
+		AE628E171E80EBD0009AEA4C /* MWTFoodStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWTFoodStore.m; sourceTree = "<group>"; };
+		AE628E191E80EC7A009AEA4C /* MWTFood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWTFood.h; sourceTree = "<group>"; };
+		AE628E1A1E80EC7A009AEA4C /* MWTFood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWTFood.m; sourceTree = "<group>"; };
+		AE628E1D1E80F525009AEA4C /* MWTFoodTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWTFoodTableViewCell.h; sourceTree = "<group>"; };
+		AE628E1E1E80F525009AEA4C /* MWTFoodTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWTFoodTableViewCell.m; sourceTree = "<group>"; };
+		AE628E201E80FD74009AEA4C /* MWTFoodDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWTFoodDetailViewController.h; sourceTree = "<group>"; };
+		AE628E211E80FD74009AEA4C /* MWTFoodDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWTFoodDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +52,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				478CC2BD0F54D0B3E893484B /* Pods_MacrosWeightTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CCDA914A686A94D63CFEFAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76997E1DB0C7B897225A9959 /* Pods_MacrosWeightTracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		204E1EAFD40159CEC7FF6DEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7493B01AD6D56C4AB5097237 /* Pods-MacrosWeightTracker.debug.xcconfig */,
+				4D62304217470791AC18B594 /* Pods-MacrosWeightTracker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AE628DF21E80E3BA009AEA4C = {
 			isa = PBXGroup;
 			children = (
 				AE628DFD1E80E3BA009AEA4C /* MacrosWeightTracker */,
 				AE628DFC1E80E3BA009AEA4C /* Products */,
+				204E1EAFD40159CEC7FF6DEA /* Pods */,
+				0CCDA914A686A94D63CFEFAC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +99,8 @@
 			children = (
 				AE628E011E80E3BA009AEA4C /* AppDelegate.h */,
 				AE628E021E80E3BA009AEA4C /* AppDelegate.m */,
-				AE628E041E80E3BA009AEA4C /* ViewController.h */,
-				AE628E051E80E3BA009AEA4C /* ViewController.m */,
+				AE628E151E80E450009AEA4C /* View Controllers */,
+				AE628E1C1E80F4B6009AEA4C /* Models */,
 				AE628E071E80E3BA009AEA4C /* Main.storyboard */,
 				AE628E0A1E80E3BA009AEA4C /* Assets.xcassets */,
 				AE628E0C1E80E3BA009AEA4C /* LaunchScreen.storyboard */,
@@ -79,6 +118,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		AE628E151E80E450009AEA4C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AE628E201E80FD74009AEA4C /* MWTFoodDetailViewController.h */,
+				AE628E211E80FD74009AEA4C /* MWTFoodDetailViewController.m */,
+				AE628E041E80E3BA009AEA4C /* MWTDailyMealViewController.h */,
+				AE628E051E80E3BA009AEA4C /* MWTDailyMealViewController.m */,
+				AE5868131F2403DE00E7C782 /* MWTMacrosOverviewViewController.h */,
+				AE5868141F2403DE00E7C782 /* MWTMacrosOverviewViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		AE628E1C1E80F4B6009AEA4C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AE628E191E80EC7A009AEA4C /* MWTFood.h */,
+				AE628E1A1E80EC7A009AEA4C /* MWTFood.m */,
+				AE628E161E80EBD0009AEA4C /* MWTFoodStore.h */,
+				AE628E171E80EBD0009AEA4C /* MWTFoodStore.m */,
+				AE628E1D1E80F525009AEA4C /* MWTFoodTableViewCell.h */,
+				AE628E1E1E80F525009AEA4C /* MWTFoodTableViewCell.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE628E121E80E3BA009AEA4C /* Build configuration list for PBXNativeTarget "MacrosWeightTracker" */;
 			buildPhases = (
+				759EB37C3B33A9834EB45AC4 /* [CP] Check Pods Manifest.lock */,
 				AE628DF71E80E3BA009AEA4C /* Sources */,
 				AE628DF81E80E3BA009AEA4C /* Frameworks */,
 				AE628DF91E80E3BA009AEA4C /* Resources */,
+				07B0ADE61BA398DC65863274 /* [CP] Embed Pods Frameworks */,
+				70809B047A106BD4D4AD00D4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,14 +214,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07B0ADE61BA398DC65863274 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MacrosWeightTracker/Pods-MacrosWeightTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70809B047A106BD4D4AD00D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MacrosWeightTracker/Pods-MacrosWeightTracker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		759EB37C3B33A9834EB45AC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AE628DF71E80E3BA009AEA4C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE628E061E80E3BA009AEA4C /* ViewController.m in Sources */,
+				AE628E1B1E80EC7A009AEA4C /* MWTFood.m in Sources */,
+				AE5868151F2403DE00E7C782 /* MWTMacrosOverviewViewController.m in Sources */,
+				AE628E061E80E3BA009AEA4C /* MWTDailyMealViewController.m in Sources */,
 				AE628E031E80E3BA009AEA4C /* AppDelegate.m in Sources */,
+				AE628E1F1E80F525009AEA4C /* MWTFoodTableViewCell.m in Sources */,
 				AE628E001E80E3BA009AEA4C /* main.m in Sources */,
+				AE628E221E80FD74009AEA4C /* MWTFoodDetailViewController.m in Sources */,
+				AE628E181E80EBD0009AEA4C /* MWTFoodStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,10 +390,12 @@
 		};
 		AE628E131E80E3BA009AEA4C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7493B01AD6D56C4AB5097237 /* Pods-MacrosWeightTracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 842V9DJGLU;
 				INFOPLIST_FILE = MacrosWeightTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.theyangziriver.MacrosWeightTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -281,10 +404,12 @@
 		};
 		AE628E141E80E3BA009AEA4C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D62304217470791AC18B594 /* Pods-MacrosWeightTracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 842V9DJGLU;
 				INFOPLIST_FILE = MacrosWeightTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.theyangziriver.MacrosWeightTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -310,6 +435,7 @@
 				AE628E141E80E3BA009AEA4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
