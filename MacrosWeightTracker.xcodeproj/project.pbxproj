@@ -19,7 +19,21 @@
 		AE628E1B1E80EC7A009AEA4C /* MWTFood.m in Sources */ = {isa = PBXBuildFile; fileRef = AE628E1A1E80EC7A009AEA4C /* MWTFood.m */; };
 		AE628E1F1E80F525009AEA4C /* MWTFoodTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE628E1E1E80F525009AEA4C /* MWTFoodTableViewCell.m */; };
 		AE628E221E80FD74009AEA4C /* MWTFoodDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE628E211E80FD74009AEA4C /* MWTFoodDetailViewController.m */; };
+		AEAD85261F4A6CCC006FE6C6 /* MWTFoodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEAD85251F4A6CCC006FE6C6 /* MWTFoodTests.m */; };
+		AEAD85281F4A9A4D006FE6C6 /* MWTFoodStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEAD85271F4A9A4D006FE6C6 /* MWTFoodStoreTests.m */; };
+		AEAD852C1F4AAC1E006FE6C6 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEAD852B1F4AAC1E006FE6C6 /* libOCMock.a */; };
+		AEAD853B1F4AAF7D006FE6C6 /* MWTMacrosOverviewViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEAD853A1F4AAF7D006FE6C6 /* MWTMacrosOverviewViewControllerTests.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEAD851E1F4A6AC6006FE6C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE628DF31E80E3BA009AEA4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE628DFA1E80E3BA009AEA4C;
+			remoteInfo = MacrosWeightTracker;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4D62304217470791AC18B594 /* Pods-MacrosWeightTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacrosWeightTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-MacrosWeightTracker/Pods-MacrosWeightTracker.release.xcconfig"; sourceTree = "<group>"; };
@@ -45,6 +59,22 @@
 		AE628E1E1E80F525009AEA4C /* MWTFoodTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWTFoodTableViewCell.m; sourceTree = "<group>"; };
 		AE628E201E80FD74009AEA4C /* MWTFoodDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWTFoodDetailViewController.h; sourceTree = "<group>"; };
 		AE628E211E80FD74009AEA4C /* MWTFoodDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWTFoodDetailViewController.m; sourceTree = "<group>"; };
+		AEAD85191F4A6AC5006FE6C6 /* MacrosWeightTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacrosWeightTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEAD851D1F4A6AC6006FE6C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEAD85251F4A6CCC006FE6C6 /* MWTFoodTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWTFoodTests.m; sourceTree = "<group>"; };
+		AEAD85271F4A9A4D006FE6C6 /* MWTFoodStoreTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWTFoodStoreTests.m; sourceTree = "<group>"; };
+		AEAD852B1F4AAC1E006FE6C6 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
+		AEAD852E1F4AAC25006FE6C6 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		AEAD852F1F4AAC25006FE6C6 /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		AEAD85301F4AAC25006FE6C6 /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		AEAD85311F4AAC25006FE6C6 /* OCMFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMFunctions.h; sourceTree = "<group>"; };
+		AEAD85321F4AAC25006FE6C6 /* OCMLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMLocation.h; sourceTree = "<group>"; };
+		AEAD85331F4AAC25006FE6C6 /* OCMMacroState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMMacroState.h; sourceTree = "<group>"; };
+		AEAD85341F4AAC25006FE6C6 /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		AEAD85351F4AAC25006FE6C6 /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		AEAD85361F4AAC25006FE6C6 /* OCMRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMRecorder.h; sourceTree = "<group>"; };
+		AEAD85371F4AAC25006FE6C6 /* OCMStubRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMStubRecorder.h; sourceTree = "<group>"; };
+		AEAD853A1F4AAF7D006FE6C6 /* MWTMacrosOverviewViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWTMacrosOverviewViewControllerTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +83,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				478CC2BD0F54D0B3E893484B /* Pods_MacrosWeightTracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEAD85161F4A6AC5006FE6C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEAD852C1F4AAC1E006FE6C6 /* libOCMock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				AE628DFD1E80E3BA009AEA4C /* MacrosWeightTracker */,
+				AEAD851A1F4A6AC6006FE6C6 /* MacrosWeightTrackerTests */,
 				AE628DFC1E80E3BA009AEA4C /* Products */,
 				204E1EAFD40159CEC7FF6DEA /* Pods */,
 				0CCDA914A686A94D63CFEFAC /* Frameworks */,
@@ -90,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				AE628DFB1E80E3BA009AEA4C /* MacrosWeightTracker.app */,
+				AEAD85191F4A6AC5006FE6C6 /* MacrosWeightTrackerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,6 +184,52 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
+		AEAD851A1F4A6AC6006FE6C6 /* MacrosWeightTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEAD85291F4AAC0D006FE6C6 /* Dependencies */,
+				AEAD853A1F4AAF7D006FE6C6 /* MWTMacrosOverviewViewControllerTests.m */,
+				AEAD85271F4A9A4D006FE6C6 /* MWTFoodStoreTests.m */,
+				AEAD85251F4A6CCC006FE6C6 /* MWTFoodTests.m */,
+				AEAD851D1F4A6AC6006FE6C6 /* Info.plist */,
+			);
+			path = MacrosWeightTrackerTests;
+			sourceTree = "<group>";
+		};
+		AEAD85291F4AAC0D006FE6C6 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				AEAD852D1F4AAC25006FE6C6 /* OCMock */,
+				AEAD852A1F4AAC15006FE6C6 /* lib */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		AEAD852A1F4AAC15006FE6C6 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				AEAD852B1F4AAC1E006FE6C6 /* libOCMock.a */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		AEAD852D1F4AAC25006FE6C6 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				AEAD852E1F4AAC25006FE6C6 /* NSNotificationCenter+OCMAdditions.h */,
+				AEAD852F1F4AAC25006FE6C6 /* OCMArg.h */,
+				AEAD85301F4AAC25006FE6C6 /* OCMConstraint.h */,
+				AEAD85311F4AAC25006FE6C6 /* OCMFunctions.h */,
+				AEAD85321F4AAC25006FE6C6 /* OCMLocation.h */,
+				AEAD85331F4AAC25006FE6C6 /* OCMMacroState.h */,
+				AEAD85341F4AAC25006FE6C6 /* OCMock.h */,
+				AEAD85351F4AAC25006FE6C6 /* OCMockObject.h */,
+				AEAD85361F4AAC25006FE6C6 /* OCMRecorder.h */,
+				AEAD85371F4AAC25006FE6C6 /* OCMStubRecorder.h */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,6 +253,24 @@
 			productReference = AE628DFB1E80E3BA009AEA4C /* MacrosWeightTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
+		AEAD85181F4A6AC5006FE6C6 /* MacrosWeightTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEAD85201F4A6AC6006FE6C6 /* Build configuration list for PBXNativeTarget "MacrosWeightTrackerTests" */;
+			buildPhases = (
+				AEAD85151F4A6AC5006FE6C6 /* Sources */,
+				AEAD85161F4A6AC5006FE6C6 /* Frameworks */,
+				AEAD85171F4A6AC5006FE6C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEAD851F1F4A6AC6006FE6C6 /* PBXTargetDependency */,
+			);
+			name = MacrosWeightTrackerTests;
+			productName = MacrosWeightTrackerTests;
+			productReference = AEAD85191F4A6AC5006FE6C6 /* MacrosWeightTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -180,6 +284,12 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 842V9DJGLU;
 						ProvisioningStyle = Automatic;
+					};
+					AEAD85181F4A6AC5006FE6C6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 842V9DJGLU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE628DFA1E80E3BA009AEA4C;
 					};
 				};
 			};
@@ -197,6 +307,7 @@
 			projectRoot = "";
 			targets = (
 				AE628DFA1E80E3BA009AEA4C /* MacrosWeightTracker */,
+				AEAD85181F4A6AC5006FE6C6 /* MacrosWeightTrackerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -209,6 +320,13 @@
 				AE628E0E1E80E3BA009AEA4C /* LaunchScreen.storyboard in Resources */,
 				AE628E0B1E80E3BA009AEA4C /* Assets.xcassets in Resources */,
 				AE628E091E80E3BA009AEA4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEAD85171F4A6AC5006FE6C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +396,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AEAD85151F4A6AC5006FE6C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEAD85281F4A9A4D006FE6C6 /* MWTFoodStoreTests.m in Sources */,
+				AEAD85261F4A6CCC006FE6C6 /* MWTFoodTests.m in Sources */,
+				AEAD853B1F4AAF7D006FE6C6 /* MWTMacrosOverviewViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEAD851F1F4A6AC6006FE6C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE628DFA1E80E3BA009AEA4C /* MacrosWeightTracker */;
+			targetProxy = AEAD851E1F4A6AC6006FE6C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AE628E071E80E3BA009AEA4C /* Main.storyboard */ = {
@@ -416,6 +552,56 @@
 			};
 			name = Release;
 		};
+		AEAD85211F4A6AC6006FE6C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = 842V9DJGLU;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/MacrosWeightTrackerTests";
+				INFOPLIST_FILE = MacrosWeightTrackerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MacrosWeightTrackerTests",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.theyangziriver.MacrosWeightTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacrosWeightTracker.app/MacrosWeightTracker";
+			};
+			name = Debug;
+		};
+		AEAD85221F4A6AC6006FE6C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = 842V9DJGLU;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/MacrosWeightTrackerTests";
+				INFOPLIST_FILE = MacrosWeightTrackerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MacrosWeightTrackerTests",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.theyangziriver.MacrosWeightTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacrosWeightTracker.app/MacrosWeightTracker";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -433,6 +619,15 @@
 			buildConfigurations = (
 				AE628E131E80E3BA009AEA4C /* Debug */,
 				AE628E141E80E3BA009AEA4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEAD85201F4A6AC6006FE6C6 /* Build configuration list for PBXNativeTarget "MacrosWeightTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEAD85211F4A6AC6006FE6C6 /* Debug */,
+				AEAD85221F4A6AC6006FE6C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
